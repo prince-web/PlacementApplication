@@ -95,7 +95,8 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      var studslist = JSON.parse("<%- JSON.stringify(students) %>");
+      console.log("script is running!!");
+      var studslist = JSON.parse(`<%- JSON.stringify(students) %>`);
       var selectname = $("#studentname");
       let clicked = 0;
       $("#batchname").click(function () {
@@ -104,7 +105,9 @@
       });
       $("#studentname").click(function () {
         let batchvalue = $("#batchname").val();
+        // console.log("the value of the batchvalue variable is: ", batchvalue);
         for (let st of studslist) {
+          console.log("the value of the studslist variable is: ", st);
           if (batchvalue === st.batch && clicked == 0) {
             let newoption = `<option value=${st._id}>${st.name} ( ${st.email} )</option>`;
             selectname.append(newoption);

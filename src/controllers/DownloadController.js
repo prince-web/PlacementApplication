@@ -55,7 +55,7 @@ module.exports.downloadfile = async function (req, resp) {
     }
 
     const file = fs.writeFile(
-      "Reports/Studentdata.csv",
+      "src/Reports/Studentdata.csv",
       csvdata,
       function (err, data) {
         if (err) {
@@ -63,7 +63,7 @@ module.exports.downloadfile = async function (req, resp) {
           return resp.redirect("back");
         }
         req.flash("success", "DATA IS DOWNLAODED");
-        return resp.download("Reports/Studentdata.csv");
+        return resp.download("src/Reports/Studentdata.csv");
       }
     );
   } catch (error) {

@@ -4,7 +4,7 @@
   "description": "An application used by the placement cell of the colleague",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "nodemon server.js"
   },
   "author": "Prince",
   "license": "ISC",
