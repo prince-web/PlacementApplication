@@ -28,11 +28,11 @@ Clone the project onto your local machine.
 
 Run 'npm install' to install required dependencies.
 
-Create .env file on root directory and set given below two variable with own values:
+Change .env file on root directory and set given below two variable with own values:
 
   SCERET_KEY = <YOUR_SECRET_KEY>
 
-  MONGODB_URI= <MONGODB_URL>
+  DB_CONNECT = <MONGODB_URL>
 
 Run 'npm start' to start the application.
 
