@@ -17,14 +17,13 @@
   <li><a href="https://nodejs.org/en//">node.js </a>- evented I/O for the backend </li>
   <li><a href="https://expressjs.com/">Express </a>- fast web framework for node.js </li>
   <li><a href="https://www.mongodb.com/">mongoDB </a>- the database for modern applications </li>
-  <li><a href="http://www.passportjs.org/">Passport </a>- For Authentication purpose </li>
-  <li>etc </li>
+  <li><a href="http://www.passportjs.org/">Passport </a>- For Authentication purpose </li> etc
 </ul>
 
 
  ### How to Install : ######
 
-Clone the project onto your local machine.
+Clone the project into your local machine.
 
 Run 'npm install' to install required dependencies.
 
