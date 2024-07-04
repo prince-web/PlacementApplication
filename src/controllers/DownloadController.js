@@ -62,7 +62,7 @@ module.exports.downloadfile = async function (req, resp) {
           console.log(err);
           return resp.redirect("back");
         }
-        req.flash("success", "DATA IS DOWNLAODED");
+        req.flash("success", "DATA IS DOWNLAODED!!");
         return resp.download("src/Reports/Studentdata.csv");
       }
     );

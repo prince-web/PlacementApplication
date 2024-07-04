@@ -1,5 +1,5 @@
 // IMPORTING THE ALL DATABASE COLLECTIONS
-// const User = require("../models/user.js");
+const User = require("../models/user.js");
 
 const Student = require("../models/student.js");
 
